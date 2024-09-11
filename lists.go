@@ -503,6 +503,8 @@ type BatchSubscribeMembersError struct {
 	EmailAddress string `json:"email_address"`
 	ErrorMessage string `json:"error"`
 	ErrorCode    string `json:"error_code"`
+	Field        string `json:"field"`
+	FieldMessage string `json:"field_message"`
 }
 
 type BatchSubscribeMembersResponse struct {
